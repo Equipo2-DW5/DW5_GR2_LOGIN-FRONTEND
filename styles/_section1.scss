@@ -1,0 +1,100 @@
+.login {
+  background-color: gray;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  margin:auto;
+  &__img {
+    display:block;
+    margin-top: 1rem;
+  }
+  &__title{
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+.request {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.user {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+  &__logo {
+    display: block;
+  }
+  &__text {
+    margin-left: 0.5rem;
+    font-size: 25px;
+  }
+  &__info {
+    margin-left: 0.5rem;
+    width: 20%;
+  }
+}
+
+.e-mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__logo {
+    display: block;
+    width: 2%;
+    margin-right: 31px;
+  }
+  &__text {
+    margin-left: -1.5rem;
+    font-size: 25px;
+  }
+  &__info {
+    margin-left: 2.5rem;
+    width: 20%;
+  }
+}
+
+.password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__logo {
+    display: block;
+  }
+  &__text {
+    margin-left: 0.5rem;
+    font-size: 25px;
+  }
+  &__info {
+    margin-left: 0.5rem;
+    width: 20%;
+  }
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  &__login {
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    background-color: gray;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 12px 37px;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+      transition: all .3s ease-in-out;
+      background-color: white; 
+      color: black;
+    }
+  }
+}
